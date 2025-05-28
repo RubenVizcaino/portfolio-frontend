@@ -1,27 +1,32 @@
 <header class="header">
-  <h1>PORTFOLIO ● RUBÉN VIZCAÍNO RODRÍGUEZ</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#certificaciones">Certificaciones</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main class="main-content">
-  <section id="sobre-mi">
-    <h2>Sobre mí</h2>
-    <p>Hola, soy un desarrollador frontend apasionado por el diseño moderno y el código limpio.</p>
-  </section>
-
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <div class="proyectos-grid">
-      <div class="proyecto-card" *ngFor="let proyecto of proyectos">
-        <h3>{{ proyecto.titulo }}</h3>
-        <p>{{ proyecto.descripcion }}</p>
-        <a [href]="proyecto.link" target="_blank">Ver más</a>
-      </div>
+  <section class="hero">
+    <button class="cv-btn">📄 Descargar CV</button>
+    <h1><span class="highlight">Software Developer</span><br/><span class="name">Rubén Vizcaíno</span></h1>
+    <p class="subtitle">Full Stack Angular & Spring Boot</p>
+    <div class="buttons">
+      <a class="btn" href="https://linkedin.com" target="_blank">LinkedIn →</a>
+      <a class="btn" href="https://github.com" target="_blank">GitHub →</a>
     </div>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes escribirme a <a href="mailto:tuemail&#64;ejemplo.com">tuemail&#64;ejemplo.com</a></p>
+    <div class="tech-icons">
+      <!-- Aquí puedes poner íconos de tecnologías como imágenes o Font Awesome -->
+      <img src="assets/angular.svg" alt="Angular" />
+      <img src="assets/typescript.svg" alt="TS" />
+      <img src="assets/html.svg" alt="HTML" />
+      <img src="assets/css.svg" alt="CSS" />
+      <!-- etc -->
+    </div>
   </section>
 </main>
 
