@@ -1,0 +1,64 @@
+@import '../styles.scss';
+
+:host {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.header {
+  background-color: $color-principal;
+  color: $color-secundario;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+.main-content {
+  padding: 2rem;
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  .proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+
+    .proyecto-card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+      a {
+        display: inline-block;
+        margin-top: 0.5rem;
+        color: #007bff;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+}
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 98.5vh;
+}
+
+.main-content {
+  flex: 1; 
+}
+
