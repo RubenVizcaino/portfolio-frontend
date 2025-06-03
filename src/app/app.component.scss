@@ -41,8 +41,6 @@
       border-radius: 50%;
     }
 
-
-
     .profile-info {
       display: flex;
       flex-direction: column;
@@ -80,7 +78,6 @@
   }
 }
 
-
 .main-content {
   flex: 1;
   display: flex;
@@ -92,16 +89,10 @@
 
 }
 
-
-
-
-
-
-
-  .footer {
-    background-color: #161515;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.875rem;
-    color: white;
-  }
+.footer {
+  background-color: #161515;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: white;
+}
