@@ -18,52 +18,8 @@
 </header>
 
 <main class="main-content">
-  <section class="hero">
-    <button class="cv-btn">Descargar CV</button>
-    <h1><span class="highlight">Software Developer</span><br /><span class="name">Rubén Vizcaíno</span></h1>
-    <p class="subtitle">Full Stack Angular & Spring Boot</p>
-    <div class="buttons">
-      <a class="btn" href="www.linkedin.com/in/ruben-vizcaino-8843a72a0" target="_blank">LinkedIn →</a>
-      <a class="btn" href="https://github.com/RubenVizcaino" target="_blank">GitHub →</a>
-    </div>
-    <div class="tech-icons">
-      <img src="angular.svg" />
-      <img src="typescript.svg" />
-      <img src="java.svg" />
-      <img src="springboot.svg" />
-    </div>
-  </section>
- <section class="projects" id="proyectos">
-  <h2 class="section-heading">PROYECTOS</h2>
-
-  <div class="project-container">
-    <div class="project-text">
-      <h3 class="project-title"><a href="https://frontend-beryl-pi-28.vercel.app/">Ecommerce Fullstack Template</a></h3>
-      <p class="project-description">
-       Proyecto base e-commerce con arquitectura limpia: Angular en el frontend,
-        Spring Boot + JPA + MariaDB en el backend, y Lombok para simplificar el modelo de datos.
-         Basado en patrón Controller–Service–Repository para mantener la separación de responsabilidades.
-         Contectado a una API REST para operaciones CRUD y autenticación JWT.
-      </p>
-    </div>
-    <div class="project-image">
-      <img src="" alt="Front en construcción" />
-    </div>
-  </div>
-  <div class="project-container reverse">
-  <div class="project-image">
-    <img src="" alt="Siguiente Proyecto" />
-  </div>
-  <div class="project-text">
-    <h3 class="project-title">Siguiente Proyecto</h3>
-    <p class="project-description">
-    Pensando ideas...
-    </p>
-  </div>
-</div>
-</section>
-
-
+  <app-hero></app-hero>
+  <app-projects></app-projects>
 </main>
 
 <footer class="footer">
